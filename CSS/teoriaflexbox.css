@@ -1,0 +1,80 @@
+/*Flex 1-Row em linha*/
+.Flex-1{
+    background-color: lightgrey;
+    /*Alterando o display da div para o tipo flex para ficar 
+    mais facil estilizar as posições dos elementos filhos
+    -por padrão o alinhamento é  em linha Row*/
+    display: flex;
+}
+
+/*Flex-2 column em coluna*/
+.flex-coluna{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* o flex direction altera a disposição dos elementos para
+    o tipo coluna colocando um abaixo do outro*/
+    flex-direction: column;
+}
+
+/*Flex 3- Wrap quebra de linha quando não cabe na tela*/
+.wrap{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: Flex;
+    /* O Flex wrap "quebra" os elementos em uma nova linha quando não cabe*/
+    flex-wrap: wrap;
+}
+
+ img{
+    width: 200px;
+    margin: 10px;
+}
+/*Flex 4- centralizado no x */
+.centralizado-x{
+    background-color: lightgray;
+    margin-top: 20px;
+    display: Flex;
+    /*centralizar horizontalmente*/
+    justify-content:center;
+}
+/*Flex 4- centralizado no x */
+.space-around{
+    background-color: lightgray;
+    margin-top: 20px;
+    display: Flex;
+    /*centralizar horizontalmente*/
+    justify-content:space-around;
+}
+
+/*Flex 4- centralizado no x */
+.space-between{
+    background-color: lightgray;
+    margin-top: 20px;
+    display: Flex;
+    /*centralizar horizontalmente*/
+    justify-content:space-between;
+}
+
+.flex-end{
+    background-color: lightgray;
+    margin-top: 20px;
+    display: Flex;
+    /*alinhando os itens na final da div*/
+    justify-content:flex-end;
+}
+
+.centralizar-y{
+    background-color: lightgray;
+    margin-top: 20px;
+    display: Flex;
+    height: 500px;
+    justify-content:center;
+    /*alinhando os itens ao centro verticalmente
+}
+
+
+
+

@@ -1,0 +1,45 @@
+td{
+    width: 100px; 
+    height: 100px; 
+}
+.azul{
+    background-color: blue;
+}
+
+.amarelo{
+    background-color:yellow ;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+.rosa{
+    background-color: pink;
+}
+
+#-preto{
+    background-color: black;
+}
+
+#-preto:hover {
+    background-color: black;
+    width: 120px;
+    transition: 1s;
+    border-bottom: 10px solid deepskyblue;
+}
+
+.verde:hover{
+    background-color: green;
+    width: 120px;
+    transition: 1s;
+    border-bottom: 10px solid dimgrey
+}
+
+
+
+
+

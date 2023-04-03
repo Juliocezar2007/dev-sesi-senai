@@ -1,0 +1,67 @@
+body
+{
+    background: linear-gradient(to right, rgb(132, 218, 255),rgb(39, 214, 249),rgb(73, 188, 223));
+}
+
+.caixa
+{
+    background: linear-gradient(rgb(5, 5, 224),rgb(128, 100, 237));
+    border-radius: 10px;
+    border: solid rgb(20, 96, 53);
+    width: 500px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.quadrado
+{
+    text-align: justify;
+    background-color: rgb(43, 212, 231);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.div2
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.cancelar
+{
+    background-color: rgb(165, 155, 228);
+    padding: 3px 7px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: left;
+    display: inline;
+}
+
+.Entrar
+{
+    background-color: rgb(165, 155, 228);
+    padding: 3px 7px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: right;
+    display: inline;
+}
+
+.cancelar:hover
+{
+    background-color: rgb(7, 129, 129);
+}
+
+.Entrar:hover
+{
+    background-color: rgb(168, 205, 237);
+}
+
